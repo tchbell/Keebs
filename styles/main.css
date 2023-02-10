@@ -1,0 +1,240 @@
+.maw {
+    background-image: url("../assets/images/Yellow_bg.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.maw .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.maw__hero-carousel {
+    position: relative;
+}
+
+.maw__slide {
+    position: relative;
+}
+
+.maw__slide a {
+    position: absolute;
+    bottom: 8rem;
+    left: 17vw;
+}
+
+.maw__slide a:hover {
+    cursor: pointer;
+}
+
+.maw__slide button {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 4px;
+    border-color: rgb(3, 108, 173);
+    background-image: -moz-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    background-image: -webkit-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    background-image: -ms-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
+    color: white;
+    padding: 0 25px;
+    font-family: "Catseye";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.maw .slick-dots {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 4rem;
+    left: 20vw;
+}
+
+.maw .slick-dots li {
+    margin-right: 1rem;
+}
+
+.maw .slick-dots li button {
+    border: none;
+    background: url(../assets/images/yellow_star.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+}
+
+.maw .slick-dots li.slick-active button {
+    border: none;
+    background: url(../assets/images/blue_star.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+}
+
+.maw p {
+    font-size: 52px;
+}
+
+.In_2023__Keebler_donations_will_exceed__1_000_0 {
+    font-size: 3.344px;
+    font-family: "Catseye";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.646;
+    text-align: center;
+    -moz-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
+    -webkit-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
+    -ms-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
+    position: absolute;
+    left: 931.85px;
+    top: 1764.248px;
+    z-index: 83;
+}
+
+.maw__blue-swipe {
+    background-image: url("../assets/images/Blue_bg.png");
+    background-size: cover;
+    background-position: center center;
+    min-height: 68vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.mat__blue-swipe--big-text {
+    font-size: 70px;
+    line-height: 1rem;
+}
+
+.maw__blue-swipe__content {
+    font-family: "Catseye";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.maw__progress-bar {
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+p.maw__donation-amount {
+    font-size: 205px;
+    color: rgb(255, 218, 61);
+    line-height: 1rem;
+    margin-bottom: 4rem;
+}
+
+
+._XXX_XXX {
+    font-size: 3.344px;
+    font-family: "Catseye";
+    color: rgb(255, 218, 61);
+    font-weight: bold;
+    line-height: 1.244;
+    text-align: center;
+    -moz-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
+    -webkit-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
+    -ms-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
+    position: absolute;
+    left: 958.771px;
+    top: 1060.297px;
+    z-index: 86;
+}
+
+
+.maw__copy {
+    font-size: 36px;
+}
+
+.maw__kids {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maw__kids-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(28, 50, 95);
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+.maw__kids-button {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 4px;
+    border-color: rgb(3, 108, 173);
+    background-image: -moz-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    background-image: -webkit-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    background-image: -ms-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
+    box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
+    color: white;
+    padding: 0 25px;
+    font-family: "Catseye";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.maw__copy--large {
+    font-size: 40px;
+}
+
+.maw__buy-now {
+    margin-top: 4rem;
+    min-height: 37rem;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../assets/images/buy_now_bg.png');
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+}
+
+.maw__buy-now button {
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(3, 108, 173);
+    border-radius: 68px;
+    background-image: -moz-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
+    background-image: -webkit-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
+    background-image: -ms-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
+    box-shadow: 3.149px 13.641px 17.1px 0.9px rgba(0, 48, 88, 0.39);
+    /* font-size: 55px; */
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    font-size: 26.344px;
+    font-family: "Catseye";
+    color: rgb(28, 50, 95);
+    font-weight: bold;
+    line-height: 1.221;
+    text-align: center;
+}
+
+.maw__buy-now p {
+    color: white;
+    text-align: center;
+    font-family: "Catseye";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.maw__buy-now .col-md-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
