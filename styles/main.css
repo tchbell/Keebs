@@ -11,16 +11,33 @@
 
 .maw__hero-carousel {
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .maw__slide {
     position: relative;
 }
 
+
+
 .maw__slide a {
+    bottom: 2rem;
     position: absolute;
-    bottom: 8rem;
-    left: 17vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.maw__slide img {
+    width: 100%;
+    max-width: unset;
+}
+
+@media screen and (min-width: 991px) {
+    .maw__slide a {
+        bottom: 8rem;
+        left: 17vw;
+        transform: unset;
+    }
 }
 
 .maw__slide a:hover {
@@ -47,8 +64,19 @@
     display: flex;
     list-style: none;
     position: absolute;
-    bottom: 4rem;
-    left: 20vw;
+    bottom: 0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 991px) {
+    .maw .slick-dots {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        bottom: 4rem;
+        left: 20vw;
+    }
 }
 
 .maw .slick-dots li {
@@ -76,24 +104,18 @@
 }
 
 .maw p {
-    font-size: 52px;
+    font-size: 21px;
 }
 
-.In_2023__Keebler_donations_will_exceed__1_000_0 {
-    font-size: 3.344px;
-    font-family: "Catseye";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 0.646;
-    text-align: center;
-    -moz-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
-    -webkit-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
-    -ms-transform: matrix(14.6003884612254, 0, 0, 15.6993424314252, 0, 0);
-    position: absolute;
-    left: 931.85px;
-    top: 1764.248px;
-    z-index: 83;
+@media screen and (min-width: 991px) {
+    .maw p {
+        font-size: 52px;
+    }
+
 }
+
+
+
 
 .maw__blue-swipe {
     background-image: url("../assets/images/Blue_bg.png");
@@ -107,8 +129,14 @@
 }
 
 .mat__blue-swipe--big-text {
-    font-size: 70px;
+    font-size: 32px;
     line-height: 1rem;
+}
+
+@media screen and (min-width: 991px) {
+    .mat__blue-swipe--big-text {
+        font-size: 70px;
+    }
 }
 
 .maw__blue-swipe__content {
@@ -118,36 +146,25 @@
     text-align: center;
 }
 
-.maw__progress-bar {
-    height: 250px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: gray;
+.maw__tracker {
+    margin: 2rem auto;
 }
 
 p.maw__donation-amount {
-    font-size: 205px;
+    font-size: 64px;
     color: rgb(255, 218, 61);
     line-height: 1rem;
-    margin-bottom: 4rem;
+
+}
+
+@media screen and (min-width: 991px) {
+    p.maw__donation-amount {
+        font-size: 205px;
+        margin-bottom: 4rem;
+    }
 }
 
 
-._XXX_XXX {
-    font-size: 3.344px;
-    font-family: "Catseye";
-    color: rgb(255, 218, 61);
-    font-weight: bold;
-    line-height: 1.244;
-    text-align: center;
-    -moz-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
-    -webkit-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
-    -ms-transform: matrix(61.4713810573982, 0, 0, 61.4713810573982, 0, 0);
-    position: absolute;
-    left: 958.771px;
-    top: 1060.297px;
-    z-index: 86;
-}
 
 
 .maw__copy {
@@ -174,6 +191,13 @@ p.maw__donation-amount {
     font-family: "Montserrat";
 }
 
+
+.maw__kids-block p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
 .maw__kids-button {
     border-style: solid;
     border-radius: 25px;
@@ -189,6 +213,8 @@ p.maw__donation-amount {
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
+
+
 
 .maw__copy--large {
     font-size: 40px;
@@ -237,4 +263,47 @@ p.maw__donation-amount {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.maw__mobile {
+    display: block !important;
+}
+
+@media screen and (min-width: 991px) {
+    .maw__mobile {
+        display: none !important;
+    }
+}
+
+.maw__desktop {
+    display: none !important;
+}
+
+@media screen and (min-width: 991px) {
+    .maw__desktop {
+        display: block !important;
+    }
+}
+
+.maw__hero img {
+    width: 100%;
+}
+
+.maw__story {
+    background-image: url('../assets/images/mobile-donation-module.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18.34px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.917;
+    text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+    .maw__story {
+        font-size: 42.344px;
+        background-image: url('../assets/images/desktop-donation-module.png')
+    }
 }
