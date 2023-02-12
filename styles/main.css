@@ -166,6 +166,15 @@ p.maw__donation-amount {
 
 
 
+.maw__quote {
+    font-size: 47.34px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.588;
+    text-align: center;
+}
 
 .maw__copy {
     font-size: 36px;
@@ -179,9 +188,10 @@ p.maw__donation-amount {
     flex-direction: column;
 }
 
+
 .maw__kids-block {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -189,6 +199,12 @@ p.maw__donation-amount {
     color: rgb(28, 50, 95);
     font-weight: bold;
     font-family: "Montserrat";
+    height: 100%;
+}
+
+.maw__kids-block a {
+    display: block;
+    margin-top: auto;
 }
 
 
@@ -290,20 +306,51 @@ p.maw__donation-amount {
 }
 
 .maw__story {
-    background-image: url('../assets/images/mobile-donation-module.png');
-    background-position: center center;
+    background-image: url('../assets/images/wishKids_mobile.png');
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    padding: 6rem 4rem;
+    position: relative;
+    margin-top: -12rem;
+}
+
+@media screen and (min-width: 991px) {
+    .maw__story {
+        background-position: right center;
+        padding: 12rem 4rem;
+
+        font-size: 42.344px;
+        background-image: url('../assets/images/desktop-donation-module.png')
+    }
+}
+
+.maw__story .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maw__story img {
+    margin: 0 auto;
+}
+
+.maw__story p {
     font-size: 18.34px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
     line-height: 1.917;
     text-align: center;
+
 }
 
 @media screen and (min-width: 991px) {
-    .maw__story {
+    .maw__story p {
         font-size: 42.344px;
-        background-image: url('../assets/images/desktop-donation-module.png')
+        display: inline-block;
+        width: 60%;
+        margin: 0 auto;
     }
 }
