@@ -1,515 +1,569 @@
 .maw {
-    background-image: url("../assets/images/Yellow_bg.png");
-    background-size: cover;
-    background-position: center center;
+  background-image: url('../assets/images/Yellow_bg.png');
+  background-size: cover;
+  background-position: center center;
 }
 
 .maw .col-12 {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .maw__hero-carousel {
-    position: relative;
-    padding-bottom: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
 }
 
 .maw__slide {
-    position: relative;
+  position: relative;
 }
 
-
-
 .maw__slide a {
-    bottom: 2rem;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  bottom: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .maw__slide img {
-    width: 100%;
-    max-width: unset;
+  width: 100%;
+  max-width: unset;
 }
 
 @media screen and (min-width: 991px) {
-    .maw__slide a {
-        bottom: 8rem;
-        left: 17vw;
-        transform: unset;
-    }
+  .maw__slide a {
+    bottom: 8rem;
+    left: 17vw;
+    transform: unset;
+  }
 }
 
 .maw__slide a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .maw__slide button {
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 4px;
-    border-color: rgb(3, 108, 173);
-    background-image: -moz-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    background-image: -webkit-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    background-image: -ms-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
-    color: white;
-    padding: 0 25px;
-    font-family: "Catseye";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    font-size: 1.5rem;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 4px;
+  border-color: rgb(3, 108, 173);
+  background-image: -moz-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  background-image: -ms-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
+  color: white;
+  padding: 0 25px;
+  font-family: 'Catseye';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
 }
 
 .maw .slick-dots {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 991px) {
+  .maw .slick-dots {
     display: flex;
     list-style: none;
     position: absolute;
-    bottom: 0rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 991px) {
-    .maw .slick-dots {
-        display: flex;
-        list-style: none;
-        position: absolute;
-        bottom: 4rem;
-        left: 24vw;
-    }
+    bottom: 4rem;
+    left: 24vw;
+  }
 }
 
 .maw .slick-dots li {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .maw .slick-dots li button {
-    border: none;
-    background: url(../assets/images/yellow_star.png);
-    text-indent: -9999px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    width: 26px;
+  border: none;
+  background: url(../assets/images/yellow_star.png);
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  width: 26px;
 }
 
 .maw .slick-dots li.slick-active button {
-    border: none;
-    background: url(../assets/images/blue_star.png);
-    text-indent: -9999px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    width: 26px;
+  border: none;
+  background: url(../assets/images/blue_star.png);
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  width: 26px;
 }
 
 .maw p {
-    font-size: 21px;
+  font-size: 28px;
 }
 
 @media screen and (min-width: 991px) {
-    .maw p {
-        font-size: 52px;
-    }
-
+  .maw p {
+    font-size: 52px;
+  }
 }
 
-
-
-
 .maw__blue-swipe {
-    background-image: url("../assets/images/Blue_bg.png");
-    background-size: cover;
-    background-position: center center;
-    min-height: 68vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6rem 0;
+  background-image: url('../assets/images/Blue_bg.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 68vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
 }
 
 .mat__blue-swipe--big-text {
-    font-size: 32px;
-    line-height: 1rem;
+  font-size: 32px;
+  line-height: 3rem;
 }
 
 @media screen and (min-width: 991px) {
-    .mat__blue-swipe--big-text {
-        font-size: 70px;
-    }
+  .mat__blue-swipe--big-text {
+    font-size: 70px;
+  }
 }
 
 .maw__blue-swipe__content {
-    font-family: "Catseye";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-align: center;
+  font-family: 'Catseye';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (min-width: 991px) {
-    .maw__blue-swipe__content {
-        padding: 4rem 0;
-    }
+  .maw__blue-swipe__content {
+    padding: 5rem 0;
+  }
 }
 
 .maw__tracker {
-    margin: 2rem auto 4rem auto;
-    width: 90%
+  margin: 2rem auto 4rem auto;
+  width: 90%;
 }
 
 p.maw__donation-amount {
-    font-size: 64px;
-    color: rgb(255, 218, 61);
-    line-height: 3rem;
-
+  font-size: 85px;
+  color: rgb(255, 218, 61);
+  line-height: 3rem;
 }
 
 @media screen and (min-width: 991px) {
-    p.maw__donation-amount {
-        font-size: 205px;
-        margin-bottom: 4rem;
-    }
+  p.maw__donation-amount {
+    font-size: 205px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
 }
 
-
-
 .maw__quote {
-    font-size: 47.34px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1.588;
-    text-align: center;
+  font-size: 47.34px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.588;
+  text-align: center;
 }
 
 .maw__copy {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .maw__kids {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+p.maw__headline {
+  -webkit-text-stroke: 3px #036cad;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.958;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: -4px -4px 0 #1c324f, 0 -4px 0 #1c324f, 4px -4px 0 #1c324f,
+    4px 0 0 #1c324f, 4px 4px 0 #1c324f, 0 4px 0 #1c324f, -4px 4px 0 #1c324f,
+    -4px 0 0 #1c324f;
 }
 
 .maw__kids .maw__headline {
-    font-family: "Catseye";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 0.958;
-    text-align: center;
-    -webkit-text-stroke: 3px #036cad;
-    font-size: 6rem;
-    margin: 2rem auto 4rem auto;
-    text-shadow: -4px -4px 0 #1c324f,
-        0 -4px 0 #1c324f,
-        4px -4px 0 #1c324f,
-        4px 0 0 #1c324f,
-        4px 4px 0 #1c324f,
-        0 4px 0 #1c324f,
-        -4px 4px 0 #1c324f,
-        -4px 0 0 #1c324f;
-
+  font-family: 'Catseye';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.958;
+  text-align: center;
+  -webkit-text-stroke: 3px #036cad;
+  font-size: 6rem;
+  margin: 2rem auto 4rem auto;
+  text-shadow: -4px -4px 0 #1c324f, 0 -4px 0 #1c324f, 4px -4px 0 #1c324f,
+    4px 0 0 #1c324f, 4px 4px 0 #1c324f, 0 4px 0 #1c324f, -4px 4px 0 #1c324f,
+    -4px 0 0 #1c324f;
 }
 
-
-
-
-
 .maw__kids-block {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 25px;
-    color: rgb(28, 50, 95);
-    font-weight: bold;
-    font-family: "Montserrat";
-    height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(28, 50, 95);
+  font-weight: bold;
+  font-family: 'Montserrat';
+  height: 100%;
+}
+
+@media screen and (min-width: 991px) {
+  .maw__kids-block {
+    padding: 2rem;
+  }
 }
 
 .maw__kids-block a {
-    display: block;
-    margin-top: auto;
+  display: block;
+  margin-top: auto;
 }
 
-
 .maw__kids-block p {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 25px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
 }
 
 .maw__kids-button {
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 4px;
-    border-color: rgb(3, 108, 173);
-    background-image: -moz-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    background-image: -webkit-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    background-image: -ms-linear-gradient(91deg, rgb(22, 88, 146) 0%, rgb(28, 50, 95) 100%);
-    box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
-    color: white;
-    padding: 0 25px;
-    font-family: "Catseye";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin-top: 1rem;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 4px;
+  border-color: rgb(3, 108, 173);
+  background-image: -moz-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  background-image: -ms-linear-gradient(
+    91deg,
+    rgb(22, 88, 146) 0%,
+    rgb(28, 50, 95) 100%
+  );
+  box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
+  color: white;
+  padding: 0 25px;
+  font-family: 'Catseye';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
-
-
 .maw__copy--large {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .maw__buy-now {
-    margin-top: 4rem;
-    min-height: 37rem;
-    background-position: center center;
-    background-size: cover;
-    background-image: url('../assets/images/buy_now_bg.png');
-    background-repeat: no-repeat;
-    padding: 4rem 0;
+  margin-top: 4rem;
+  min-height: 37rem;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../assets/images/buy_now_bg.png');
+  background-repeat: no-repeat;
+  padding: 4rem 0;
 }
 
 .maw__buy-now button {
-    border-style: solid;
-    border-width: 7px;
-    border-color: rgb(3, 108, 173);
-    border-radius: 68px;
-    background-image: -moz-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
-    background-image: -webkit-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
-    background-image: -ms-linear-gradient(91deg, rgb(252, 227, 124) 18%, rgb(255, 218, 61) 61%);
-    box-shadow: 3.149px 13.641px 17.1px 0.9px rgba(0, 48, 88, 0.39);
-    /* font-size: 55px; */
-    padding: 1rem 4rem;
-    margin-bottom: 2rem;
-    font-size: 26.344px;
-    font-family: "Catseye";
-    color: rgb(28, 50, 95);
-    font-weight: bold;
-    line-height: 1.221;
-    text-align: center;
+  border-style: solid;
+  border-width: 7px;
+  border-color: rgb(3, 108, 173);
+  border-radius: 68px;
+  font-size: 45px;
+  background-image: -moz-linear-gradient(
+    91deg,
+    rgb(252, 227, 124) 18%,
+    rgb(255, 218, 61) 61%
+  );
+  background-image: -webkit-linear-gradient(
+    91deg,
+    rgb(252, 227, 124) 18%,
+    rgb(255, 218, 61) 61%
+  );
+  background-image: -ms-linear-gradient(
+    91deg,
+    rgb(252, 227, 124) 18%,
+    rgb(255, 218, 61) 61%
+  );
+  box-shadow: 3.149px 13.641px 17.1px 0.9px rgba(0, 48, 88, 0.39);
+  /* font-size: 55px; */
+  padding: 1rem 4rem;
+  margin-bottom: 2rem;
+  /* font-size: 26.344px; */
+  font-family: 'Catseye';
+  color: rgb(28, 50, 95);
+  font-weight: bold;
+  line-height: 1.221;
+  text-align: center;
 }
 
 .maw__buy-now p {
-    color: white;
-    text-align: center;
-    font-family: "Catseye";
-    font-weight: bold;
-    font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-family: 'Catseye';
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .maw__buy-now .col-md-5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .maw__mobile {
-    display: block !important;
+  display: block !important;
 }
 
 @media screen and (min-width: 991px) {
-    .maw__mobile {
-        display: none !important;
-    }
+  .maw__mobile {
+    display: none !important;
+  }
 }
 
 .maw__desktop {
-    display: none !important;
+  display: none !important;
 }
 
 @media screen and (min-width: 991px) {
-    .maw__desktop {
-        display: block !important;
-    }
+  .maw__desktop {
+    display: block !important;
+  }
 }
 
 .maw__hero img {
-    width: 100%;
+  width: 100%;
 }
 
 .maw__story {
-    background-image: url('../assets/images/bg_small.png');
-    background-position: top center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 6rem 4rem;
-    position: relative;
-    margin-top: -12rem;
-    overflow: hidden;
+  background-image: url('../assets/images/bg_small.png');
+  background-position: top center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 6rem 4rem;
+  position: relative;
+  margin-top: -12rem;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 568px) {
-    .maw__story {
-        background-image: url('../assets/images/bg_medium.png');
-    }
+  .maw__story {
+    background-image: url('../assets/images/bg_medium.png');
+  }
 }
 
 @media screen and (min-width: 991px) {
-    .maw__story {
-        padding: 12rem 4rem;
-        font-size: 42.344px;
-        background-image: url('../assets/images/bg_medium.png');
-        background: url('../assets/images/blue_bg_repeat.png'), url('../assets/images/blue_bg_repeat.png'), url('../assets/images/blue_bg_repeat.png');
-        background-position: 0 985px, 0px top;
-        background-repeat: no-repeat, no-repeat;
-        width: 100vw;
-    }
+  .maw__story {
+    padding: 12rem 4rem;
+    font-size: 42.344px;
+    background-image: url('../assets/images/bg_medium.png');
+    background: url('../assets/images/blue_bg_repeat.png'),
+      url('../assets/images/blue_bg_repeat.png'),
+      url('../assets/images/blue_bg_repeat.png');
+    background-position: 0 985px, 0px top;
+    background-repeat: no-repeat, no-repeat;
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 991px) {
-    .maw__story {
-        background-position: 0 960px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 960px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1090px) {
-    .maw__story {
-        background-position: 0 928px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 928px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1107px) {
-    .maw__story {
-        background-position: 0 888px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 888px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1116px) {
-    .maw__story {
-        background-position: 0 849px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 849px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1123px) {
-    .maw__story {
-        background-position: 0 802px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 802px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1243px) {
-    .maw__story {
-        background-position: 0 759px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 759px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1267px) {
-    .maw__story {
-        background-position: 0 726px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 726px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1412px) {
-    .maw__story {
-        background-position: 0 680px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 680px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1415px) {
-    .maw__story {
-        background-position: 0 643px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 643px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1485px) {
-    .maw__story {
-        background-position: 0 588px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 535px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1546px) {
-    .maw__story {
-        background-position: 0 540px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 540px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1691px) {
-    .maw__story {
-        background-position: 0 495px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 495px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1715px) {
-    .maw__story {
-        background-position: 0 447px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 447px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1827px) {
-    .maw__story {
-        background-position: 0 400px, 0px top;
-    }
+  .maw__story {
+    background-position: 0 400px, 0px top;
+  }
 }
 
 @media screen and (min-width: 1948px) {
-    .maw__story {
-        background-position: 0 357px, 0px top;
-        background-size: cover;
-    }
+  .maw__story {
+    background-position: 0 357px, 0px top;
+    background-size: cover;
+  }
 }
 
-
-
-
-
-
-
 .maw__story .col-12 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
 }
 
 .maw__story img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 img.maw__cookies {
-    position: absolute;
+  position: absolute;
 }
 
 .maw__bottom {
-    bottom: 0;
+  bottom: 0;
+  right: -25px;
+  width: 26vw;
+  max-width: 300px;
+}
+@media screen and (min-width: 550px) {
+  .maw__bottom {
     right: -99px;
-    width: 26vw;
-    max-width: 300px;
+  }
 }
 
+
 .maw__side {
+  right: -50px;
+  top: -61px;
+  z-index: 0;
+  width: 30vw;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 550px) {
+  .maw__side {
     right: -100px;
-    top: -90px;
-    z-index: 0;
-    width: 30vw;
-    max-width: 400px;
+  }
 }
 
 .maw__story p {
-    font-size: 18.34px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    line-height: 1.917;
-    text-align: center;
-
+  font-size: 18.34px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  line-height: 1.917;
+  text-align: center;
 }
 
 @media screen and (min-width: 991px) {
-    .maw__story p {
-        font-size: 1.5rem;
-        display: inline-block;
-        width: 60%;
-        margin: 0 auto;
-    }
+  .maw__story p {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+.maw a:hover {
+  cursor: pointer;
+}
+
+.maw button:hover {
+  cursor: pointer;
+}
+
+.maw__buy-now p {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
