@@ -2,6 +2,12 @@
   background-image: url('../assets/images/Yellow_bg.png');
   background-size: cover;
   background-position: center center;
+  /* width: 100vw; */
+  overflow-x: hidden;
+}
+
+.body {
+  overflow-x: hidden;
 }
 
 .maw .col-12 {
@@ -47,21 +53,15 @@
   border-radius: 25px;
   border-width: 4px;
   border-color: rgb(3, 108, 173);
-  background-image: -moz-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
-  background-image: -ms-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
+  background-image: -moz-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
+  background-image: -webkit-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
+  background-image: -ms-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
   box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
   color: white;
   padding: 0 25px;
@@ -201,6 +201,7 @@ p.maw__donation-amount {
   flex-direction: column;
   margin-top: 4rem;
 }
+
 p.maw__headline {
   -webkit-text-stroke: 3px #036cad;
   color: rgb(255, 255, 255);
@@ -262,21 +263,15 @@ p.maw__headline {
   border-radius: 25px;
   border-width: 4px;
   border-color: rgb(3, 108, 173);
-  background-image: -moz-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
-  background-image: -ms-linear-gradient(
-    91deg,
-    rgb(22, 88, 146) 0%,
-    rgb(28, 50, 95) 100%
-  );
+  background-image: -moz-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
+  background-image: -webkit-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
+  background-image: -ms-linear-gradient(91deg,
+      rgb(22, 88, 146) 0%,
+      rgb(28, 50, 95) 100%);
   box-shadow: 0px 7px 5.7px 0.3px rgba(137, 90, 36, 0.61);
   color: white;
   padding: 0 25px;
@@ -306,21 +301,15 @@ p.maw__headline {
   border-color: rgb(3, 108, 173);
   border-radius: 68px;
   font-size: 45px;
-  background-image: -moz-linear-gradient(
-    91deg,
-    rgb(252, 227, 124) 18%,
-    rgb(255, 218, 61) 61%
-  );
-  background-image: -webkit-linear-gradient(
-    91deg,
-    rgb(252, 227, 124) 18%,
-    rgb(255, 218, 61) 61%
-  );
-  background-image: -ms-linear-gradient(
-    91deg,
-    rgb(252, 227, 124) 18%,
-    rgb(255, 218, 61) 61%
-  );
+  background-image: -moz-linear-gradient(91deg,
+      rgb(252, 227, 124) 18%,
+      rgb(255, 218, 61) 61%);
+  background-image: -webkit-linear-gradient(91deg,
+      rgb(252, 227, 124) 18%,
+      rgb(255, 218, 61) 61%);
+  background-image: -ms-linear-gradient(91deg,
+      rgb(252, 227, 124) 18%,
+      rgb(255, 218, 61) 61%);
   box-shadow: 3.149px 13.641px 17.1px 0.9px rgba(0, 48, 88, 0.39);
   /* font-size: 55px; */
   padding: 1rem 4rem;
@@ -516,6 +505,7 @@ img.maw__cookies {
   width: 26vw;
   max-width: 300px;
 }
+
 @media screen and (min-width: 550px) {
   .maw__bottom {
     right: -99px;
